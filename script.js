@@ -117,64 +117,64 @@ const sectionContent = {
                         <img src="moneyview.png" alt="MoneyView">
                         <h4>MoneyView</h4>
                         <p>Instant personal loans up to ₹5 Lakhs</p>
-                        <a href="https://moneyview.whizdm.com/share_lref?ref=ENEH1ZHE" target="_blank" class="apply-btn">Apply Now</a>
+                        <button onclick="showITRUploadPopup('MoneyView')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="app-item">
                         <img src="mpocket.png" alt="MPocket">
                         <h4>MPocket</h4>
                         <p>Quick loans with minimal documentation</p>
-                        <a href="https://click.mpkt.to/4ZwB/0nhozdso" target="_blank" class="apply-btn">Apply Now</a>
+                        <button onclick="showITRUploadPopup('MPocket')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="app-item">
                         <img src="kreditbee.png" alt="KreditBee">
                         <h4>KreditBee</h4>
-                        <p>Loans up to ₹2 Lakhs in minutes</p>
-                        <a href="https://www.kreditbee.in/dl?kb=referrer&id=AMIAIYRRV" target="_blank" class="apply-btn">Apply Now</a>
+                        <p>Instant personal loans up to ₹3 Lakhs</p>
+                        <button onclick="showITRUploadPopup('KreditBee')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="app-item">
                         <img src="cashe.png" alt="CASHe">
                         <h4>CASHe</h4>
-                        <p>Instant digital loans for salaried</p>
-                        <a href="https://play.google.com/store/apps/details?id=co.tslc.cashe.android" target="_blank" class="apply-btn">Apply Now</a>
+                         <p>Instant digital loans for salaried</p>
+                        <button onclick="showITRUploadPopup('CASHe')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
                         <img src="truebalance.png" alt="TrueBalance">
                         <h4>TrueBalance</h4>
                         <p>Instant digital loans for salaried</p>
-                        <a href="https://kjkf8.app.goo.gl/Nb2NxFDx1qVrEex9A" target="_blank" class="apply-btn">Apply Now</a>
+                        <button onclick="showITRUploadPopup('TrueBalance')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
                         <img src="navi.png" alt="Navi">
                         <h4>Navi</h4>
-                        <p>Instant digital loans for salaried</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.naviapp" target="_blank" class="apply-btn">Apply Now</a>
+                        <p>Instant digital loans </p>
+                        <button onclick="showITRUploadPopup('Navi')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
                         <img src="olyv.png" alt="Olyv">
                         <h4>Olyv</h4>
-                        <p>Instant digital loans for salaried</p>
-                        <a href="https://smartcoin.page.link/YtsHTVbJ84v5vKeTA" target="_blank" class="apply-btn">Apply Now</a>
+                         <p>Instant digital loans for salaried</p>
+                        <button onclick="showITRUploadPopup('Olyv')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
                         <img src="kissht.png" alt="Loan Kissht">
                         <h4>Loan kissht</h4>
                         <p>Instant Personal loans </p>
-                        <a href="https://play.google.com/store/apps/details?id=com.fastbanking" target="_blank" class="apply-btn">Apply Now</a>
+                        <button onclick="showITRUploadPopup('Loan kissht')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
                         <img src="stashfin.png" alt="Stashfin">
                         <h4>Stashfin</h4>
                         <p>Instant Personal loans </p>
-                        <a href="https://play.google.com/store/apps/details?id=com.stashfin.android" target="_blank" class="apply-btn">Apply Now</a>
+                        <button onclick="showITRUploadPopup('Stashfin')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
                         <img src="airtel.png" alt="Airtel">
                         <h4>Airtel Finance</h4>
-                        <p>Only for Airtel users</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.myairtelapp" target="_blank" class="apply-btn">Apply Now</a>
+                         <p>Only for Airtel users</p>
+                        <button onclick="showITRUploadPopup('Airtel Finance')" class="apply-btn">Apply Now</button>
                     </div>
                 </div>
             </div>
@@ -186,43 +186,43 @@ const sectionContent = {
                     <div class="bank-item">
                         <img src="hdfc.png" alt="HDFC Bank">
                         <h4>HDFC Bank</h4>
-                        <p>Interest rate: 10.50% onwards</p>
-                        <a href="https://applyonline.hdfcbank.com/personal-loans.html?utm_source=paid_google&utm_medium=search&utm_campaign=HB_PL_PPC_GGL_SCH_dom_Ind_br_Ex_NTB_Sep_2024&utm_content=HB_PL_PPC_GGL_SCH_dom_Ind_br_Ex_NTB_Sep_2024_brand&utm_term=Hdfc%20Personal%20Loan&gclid=EAIaIQobChMIxMmphOfjiwMVV6RmAh0_QzpGEAAYASAAEgJ5sPD_BwE" target="_blank" class="apply-btn">Apply Now</a>
+                         <p>Interest rate: 10.50% onwards</p>
+                        <button onclick="showITRUploadPopup('HDFC Bank')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="bank-item">
                         <img src="icici.png" alt="ICICI Bank">
                         <h4>ICICI Bank</h4>
-                        <p>Interest rate: 10.75% onwards</p>
-                        <a href="https://buy.icicibank.com/ucj/personal?ius=NEWTEST005&iup=PL852452&ITM=nli_personalLoan_productnavigation_applynow_Ctabtn" target="_blank" class="apply-btn">Apply Now</a>
+                         <p>Interest rate: 10.75% onwards</p>
+                        <button onclick="showITRUploadPopup('ICICI Bank')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="bank-item">
                         <img src="axis.png" alt="Axis Bank">
                         <h4>Axis Bank</h4>
                         <p>Interest rate: 11.25% onwards</p>
-                        <a href="https://www.axisbank.com/retail/loans/personal-loan" target="_blank" class="apply-btn">Apply Now</a>
+                        <button onclick="showITRUploadPopup('Axis Bank')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="bank-item">
                         <img src="sbi.png" alt="SBI">
                         <h4>SBI</h4>
-                        <p>Interest rate: 10.90% onwards</p>
-                        <a href="https://sbi.co.in/web/personal-banking/loans/personal-loans" target="_blank" class="apply-btn">Apply Now</a>
+                          <p>Interest rate: 10.90% onwards</p>
+                        <button onclick="showITRUploadPopup('SBI')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="bank-item">
                         <img src="idfc.png" alt="IDFC First">
                         <h4>IDFC First</h4>
-                        <p>Interest rate: 10.49% onwards</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus" target="_blank" class="apply-btn">Apply Now</a>
+                          <p>Interest rate: 10.49% onwards</p>
+                        <button onclick="showITRUploadPopup('IDFC First')" class="apply-btn">Apply Now</button>
                     </div>
                     
                     <div class="bank-item">
                         <img src="kotak.png" alt="Kotak Bank">
                         <h4>Kotak Bank</h4>
                         <p>Interest rate: 10.99% onwards</p>
-                        <a href="https://kudosdigital.kotak.com/vivid/vividflow/run/personal_loan#Authentication" target="_blank" class="apply-btn">Apply Now</a>
+                        <button onclick="showITRUploadPopup('Kotak Bank')" class="apply-btn">Apply Now</button>
                     </div>
                 </div>
             </div>
@@ -716,7 +716,7 @@ function submitITR(bank) {
         </div>
     `;
     
-    // Simulate upload process
+    // Simulate upload process and then show success message
     setTimeout(() => {
         // Show thank you message
         const thankYouModal = `
@@ -725,27 +725,61 @@ function submitITR(bank) {
                     <div class="thank-you-content">
                         <div class="success-icon">✓</div>
                         <h2>Thank You!</h2>
-                        <p>Your application for ${bank} credit card has been submitted successfully.</p>
-                        <p>Our team will contact you shortly.</p>
-                        <button onclick="closeAllModals()" class="ok-btn">OK</button>
+                        <p>Your application for ${bank} has been submitted successfully.</p>
+                        <p>Redirecting you to the application page...</p>
+                        <button onclick="redirectToLender('${bank}')" class="ok-btn">Continue</button>
                     </div>
                 </div>
             </div>
         `;
         
         document.body.innerHTML = thankYouModal;
+
+        // Auto redirect after 2 seconds
+        setTimeout(() => {
+            redirectToLender(bank);
+        }, 2000);
     }, 2000);
+}
+
+function redirectToLender(bank) {
+    // Define URLs for different lenders
+    const lenderUrls = {
+        'MoneyView': 'https://moneyview.whizdm.com/share_lref?ref=ENEH1ZHE',
+        'MPocket': 'https://click.mpkt.to/4ZwB/0nhozdso',
+        'KreditBee': 'https://www.kreditbee.in/dl?kb=referrer&id=AMIAIYRRV',
+        'CASHe': 'https://play.google.com/store/apps/details?id=co.tslc.cashe.android',
+        'TrueBalance': 'https://kjkf8.app.goo.gl/Nb2NxFDx1qVrEex9A',
+        'Navi': 'https://play.google.com/store/apps/details?id=com.naviapp',
+        'Olyv': 'https://smartcoin.page.link/YtsHTVbJ84v5vKeTA',
+        'Loan kissht': 'https://play.google.com/store/apps/details?id=com.fastbanking',
+        'Stashfin': 'https://play.google.com/store/apps/details?id=com.stashfin.android',
+        'Airtel Finance': 'https://play.google.com/store/apps/details?id=com.myairtelapp',
+        'HDFC Bank': 'https://applyonline.hdfcbank.com/personal-loans.html?utm_source=paid_google&utm_medium=search&utm_campaign=HB_PL_PPC_GGL_SCH_dom_Ind_br_Ex_NTB_Sep_2024&utm_content=HB_PL_PPC_GGL_SCH_dom_Ind_br_Ex_NTB_Sep_2024_brand&utm_term=Hdfc%20Personal%20Loan&gclid=EAIaIQobChMIxMmphOfjiwMVV6RmAh0_QzpGEAAYASAAEgJ5sPD_BwE',
+        'ICICI Bank': 'https://buy.icicibank.com/ucj/personal?ius=NEWTEST005&iup=PL852452&ITM=nli_personalLoan_productnavigation_applynow_Ctabtn',
+        'Axis Bank': 'https://www.axisbank.com/retail/loans/personal-loan',
+        'SBI': 'https://sbi.co.in/web/personal-banking/loans/personal-loans',
+        'IDFC First': 'https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus',
+        'Kotak Bank': 'https://kudosdigital.kotak.com/vivid/vividflow/run/personal_loan#Authentication'
+    };
+
+    // Get the URL for the selected bank
+    const url = lenderUrls[bank];
+    
+    if (url) {
+        // Open the URL in a new tab
+        window.open(url, '_blank');
+        // Redirect main window back to home
+        window.location.href = 'home.html';
+    } else {
+        // Fallback if URL not found
+        window.location.href = 'home.html';
+    }
 }
 
 function closeUploadModal() {
     const modal = document.querySelector('.upload-modal');
     if (modal) modal.remove();
-}
-
-function closeAllModals() {
-    const modals = document.querySelectorAll('.upload-modal, .thank-you-modal');
-    modals.forEach(modal => modal.remove());
-    window.location.href = 'home.html';
 }
 
 function contactBank(bank) 
@@ -766,24 +800,24 @@ function showPersonalLoanContent() {
                 <h3>Personal Loan Apps</h3>
                 <div class="apps-grid">
                     <div class="app-item">
-                        <img src="moneyview-icon.png" alt="MoneyView">
+                        <img src="moneyview.png" alt="MoneyView">
                         <h4>MoneyView</h4>
-                        <button onclick="applyLoanApp('MoneyView')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('MoneyView')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
-                        <img src="mpocket-icon.png" alt="MPocket">
+                        <img src="mpocket.png" alt="MPocket">
                         <h4>MPocket</h4>
-                        <button onclick="applyLoanApp('MPocket')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('MPocket')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
-                        <img src="kreditbee-icon.png" alt="KreditBee">
+                        <img src="kreditbee.png" alt="KreditBee">
                         <h4>KreditBee</h4>
-                        <button onclick="applyLoanApp('KreditBee')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('KreditBee')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="app-item">
-                        <img src="cashe-icon.png" alt="CASHe">
+                        <img src="cashe.png" alt="CASHe">
                         <h4>CASHe</h4>
-                        <button onclick="applyLoanApp('CASHe')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('CASHe')" class="apply-btn">Apply Now</button>
                     </div>
                 </div>
             </section>
@@ -793,39 +827,40 @@ function showPersonalLoanContent() {
                 <h3>Bank Personal Loans</h3>
                 <div class="banks-grid">
                     <div class="bank-item">
-                        <img src="hdfc-icon.png" alt="HDFC Bank">
+                        <img src="hdfc.png" alt="HDFC Bank">
                         <h4>HDFC Bank</h4>
-                        <button onclick="applyBankLoan('HDFC')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('HDFC Bank')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="bank-item">
-                        <img src="icici-icon.png" alt="ICICI Bank">
+                        <img src="icici.png" alt="ICICI Bank">
                         <h4>ICICI Bank</h4>
-                        <button onclick="applyBankLoan('ICICI')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('ICICI Bank')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="bank-item">
-                        <img src="axis-icon.png" alt="Axis Bank">
+                        <img src="axis.png" alt="Axis Bank">
                         <h4>Axis Bank</h4>
-                        <button onclick="applyBankLoan('Axis')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('Axis Bank')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="bank-item">
-                        <img src="sbi-icon.png" alt="SBI">
+                        <img src="sbi.png" alt="SBI">
                         <h4>SBI</h4>
-                        <button onclick="applyBankLoan('SBI')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('SBI')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="bank-item">
-                        <img src="idfc-icon.png" alt="IDFC First">
+                        <img src="idfc.png" alt="IDFC First">
                         <h4>IDFC First</h4>
-                        <button onclick="applyBankLoan('IDFC')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('IDFC First')" class="apply-btn">Apply Now</button>
                     </div>
                     <div class="bank-item">
-                        <img src="kotak-icon.png" alt="Kotak Bank">
+                        <img src="kotak.png" alt="Kotak Bank">
                         <h4>Kotak Bank</h4>
-                        <button onclick="applyBankLoan('Kotak')">Apply Now</button>
+                        <button onclick="showITRUploadPopup('Kotak Bank')" class="apply-btn">Apply Now</button>
                     </div>
                 </div>
             </section>
         </div>
     `;
+    
     
     // Get the personal loan section in your home page
     const personalLoanSection = document.getElementById('personal-loan-section');
@@ -1081,4 +1116,37 @@ function closePaymentModal() {
     if (modal) {
         modal.remove();
     }
+}
+
+function showITRUploadPopup(lender) {
+    const uploadModal = `
+        <div class="upload-modal">
+            <div class="upload-container">
+                <h3>Upload ITR for ${lender}</h3>
+                <p class="upload-info">Please upload your latest ITR to complete the application</p>
+                
+                <div class="upload-box">
+                    <input type="file" id="itrFile" accept=".pdf,.jpg,.jpeg,.png" class="file-input">
+                    <label for="itrFile" class="file-label">
+                        <i class="upload-icon">📄</i>
+                        <span>Choose ITR File</span>
+                    </label>
+                    <p class="file-name" id="fileName"></p>
+                </div>
+                
+                <button onclick="submitITR('${lender}')" class="submit-btn">Submit ITR</button>
+                <button onclick="closeUploadModal()" class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+    `;
+    
+    document.body.insertAdjacentHTML('beforeend', uploadModal);
+    
+    // Add file input listener
+    document.getElementById('itrFile').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            document.getElementById('fileName').textContent = file.name;
+        }
+    });
 }
