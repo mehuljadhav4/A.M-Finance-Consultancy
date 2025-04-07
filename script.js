@@ -224,6 +224,12 @@ const sectionContent = {
                         <p>Interest rate: 10.99% onwards</p>
                         <button onclick="showITRUploadPopup('Kotak Bank')" class="apply-btn">Apply Now</button>
                     </div>
+                    <div class="bank-item">
+                        <img src="bob-icon.png" alt="Bank Of Baroda">
+                        <h4>Bank Of Baroda</h4>
+                        <p>Interest rate: 12.90% onwards</p>
+                        <button onclick="showITRUploadPopup('Bank Of Baroda')" class="apply-btn">Apply Now</button>
+                    </div>
                 </div>
             </div>
         `
@@ -760,7 +766,8 @@ function redirectToLender(bank) {
         'Axis Bank': 'https://www.axisbank.com/retail/loans/personal-loan',
         'SBI': 'https://sbi.co.in/web/personal-banking/loans/personal-loans',
         'IDFC First': 'https://play.google.com/store/apps/details?id=com.idfcfirstbank.optimus',
-        'Kotak Bank': 'https://kudosdigital.kotak.com/vivid/vividflow/run/personal_loan#Authentication'
+        'Kotak Bank': 'https://kudosdigital.kotak.com/vivid/vividflow/run/personal_loan#Authentication',
+        'Bank Of Baroda': 'https://dil2.bankofbaroda.co.in/pl/?_gl=1*11yymq9*_gcl_au*MTU4NjI1MDQ4OC4xNzM3NjI5NTQ2*_ga*MTY5NzY2MzU0OC4xNzM3NjI5NTQ2*_ga_X233XJ99FK*MTc0NDAxNTkyOC45LjAuMTc0NDAxNTkyOC42MC4wLjA.',
     };
 
     // Get the URL for the selected bank
